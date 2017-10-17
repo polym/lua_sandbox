@@ -64,8 +64,8 @@ else()
     set(LUA_PROJECT "lua-5_1_5")
     externalproject_add(
         ${LUA_PROJECT}
-        GIT_REPOSITORY https://github.com/trink/lua.git
-        GIT_TAG 57d3e82ef270b20dc976f3a6001439589c807793
+        GIT_REPOSITORY https://github.com/polym/lua.git
+        GIT_TAG 8e14feca7a3f7b51bcc169fdad439f1bfd3cce2d
         CMAKE_ARGS ${SANDBOX_CMAKE_ARGS}
         INSTALL_ARGS ${INST_ARGS}
     )
